@@ -18,15 +18,18 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            name: "Argon2",
+            name: "argon2",
             url: "https://github.com/tremblay/phc-winner-argon2.git", .branch("swift-package-manager")
         ),
     ],
     targets: [
         .target(
             name: "Argon2Swift",
-            dependencies: ["Argon2"],
-            path: "Sources/Swift"
+            dependencies: ["argon2"],
+            path: "Sources/Swift",
+            cSettings: [
+                .headerSearchPath("../")
+            ]
         ),
         .testTarget(
             name: "Argon2SwiftTests",
