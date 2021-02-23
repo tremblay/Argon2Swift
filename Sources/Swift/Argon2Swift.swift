@@ -6,7 +6,7 @@
 import Foundation
 
 #if SWIFT_PACKAGE
-import CArgon2
+import argon2
 #endif
 
 /// Main class to handle all Argon2 hashing and verification
