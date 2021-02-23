@@ -5,7 +5,7 @@
 
 import Foundation
 
-#if canImport(CArgon2)
+#if SWIFT_PACKAGE
 import CArgon2
 #endif
 
