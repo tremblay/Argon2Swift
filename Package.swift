@@ -16,13 +16,6 @@ let package = Package(
             targets: ["Argon2Swift"]
         ),
     ],
-    dependencies: [
-//        .package(
-//            name: "CArgon2", 
-            //url: "https://github.com/tremblay/phc-winner-argon2.git", .branch("swift-package-manager")
-//            path: "../Cargon2"
-//        )
-    ],
     targets: [
         .systemLibrary(
             name: "argon2",
