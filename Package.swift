@@ -42,17 +42,11 @@ let package = Package(
             ],
             sources: [
                 "src/blake2/blake2b.c",
-                "src/blake2/blake2.h",
-                "src/blake2/blake2-impl.h",
-                "src/blake2/blamka-round-ref.h",
                 "src/argon2.c",
                 "src/core.c",
-                "src/core.h",
                 "src/encoding.c",
-                "src/encoding.h",
                 "src/ref.c",
-                "src/thread.c",
-                "src/thread.h",
+                "src/thread.c"
             ]
         ),
         .target(
