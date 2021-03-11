@@ -19,7 +19,7 @@ let package = Package(
     dependencies: [
         .package(
             name: "argon2", 
-            url: "https://github.com/tremblay/phc-winner-argon2.git", .branch("swift-package-manager")
+            url: "https://github.com/P-H-C/phc-winner-argon2.git", .branch("master")
         )
     ],
     targets: [
